@@ -1,53 +1,45 @@
-# ML_DATA_COLLECTION
-This repository contains practice scripts and sample datasets collected through three basic data-gathering methods commonly used in Machine Learning:
+# **ML_DATA_COLLECTION**
 
-✅ 1. Manual Data Entry
+This repository contains simple practice scripts and sample datasets created using three basic data-collection methods commonly used in Machine Learning.
 
-File: 01_manual_data.py
-Output: manual_data.csv
+---
 
-Demonstrates how to manually create datasets using Python lists/dictionaries.
+## **1. Manual Data Entry**
+**Script:** `01_manual_data.py`  
+**Output:** `manual_data.csv`
 
-Useful for building small custom datasets for testing or learning.
+- Demonstrates creating a dataset manually using Python lists and dictionaries.  
+- Useful for learning how to structure small custom datasets.
 
-✅ 2. API Data Collection
+---
 
-File: 02_api_data.py
-Output: swapi_data.csv
+## **2. API Data Collection**
+**Script:** `02_api_data.py`  
+**Output:** `swapi_data.csv`
 
-Fetches structured data from a public API (example: SWAPI).
+- Fetches structured data from a public API (example: **SWAPI**).  
+- Shows how to:
+  - make API requests  
+  - parse JSON responses  
+  - save data to CSV
 
-Shows how to call APIs, parse JSON, and store results in CSV format.
+---
 
-✅ 3. Web Scraping
+## **3. Web Scraping**
+**Script:** `03_web_scrap.py`  
+**Output:** `hackernews_latest.csv`
 
-File: 03_web_scrap.py
-Output: hackernews_latest.csv
+- Scrapes data from a website (example: **Hacker News latest posts**).  
+- Demonstrates:
+  - HTML parsing  
+  - extracting useful information  
+  - storing results in CSV format  
 
-Scrapes data from a website (example: Hacker News latest posts).
-
-Demonstrates HTML parsing and extracting information using Python.
-
-
-🚀 How to Run the Scripts
-
-Clone the repository:
-
-git clone <repo-url>
-cd ML_DATA_COLLECTION
-
-
-Run any of the scripts:
-
-python 01_manual_data.py
-python 02_api_data.py
-python 03_web_scrap.py
+---
+## **Tools Used**
+- Python  
+- Requests  
+- BeautifulSoup4  
+- Pandas
 
 
-Check the generated CSV files.
-
-📌 Requirements
-
-You may need the following Python packages:
-
-pip install requests beautifulsoup4 pandas
